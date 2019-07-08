@@ -39,6 +39,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
+  suspisionTime: 3
+  patrolPath: {fileID: 0}
+  waypointTolerance: 1
+  dwellingTime: 2
 --- !u!1001 &648661275254776101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106,10 +110,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8996541015672666430, guid: 73cdbd7349985eb43a3ce1392fc73a39,
+        type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8996541015672666430, guid: 73cdbd7349985eb43a3ce1392fc73a39,
+        type: 3}
+      propertyPath: weaponDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3506847746678750583, guid: 73cdbd7349985eb43a3ce1392fc73a39,
         type: 3}
       propertyPath: healthPoints
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 869196275, guid: 73cdbd7349985eb43a3ce1392fc73a39, type: 3}
       propertyPath: m_Speed

@@ -21,7 +21,8 @@ namespace RPG.Combat
             if (target.IsDead) return;
             if (!GetIsInRange())
             {
-                GetComponent<Mover>().MoveTo(target.transform.position);
+                // to do injured mechanic implementation
+                GetComponent<Mover>().MoveTo(target.transform.position, 1f);
             }
             else
             {

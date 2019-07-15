@@ -155,6 +155,11 @@ PrefabInstance:
       propertyPath: weaponDamage
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 887993699060260940, guid: 73cdbd7349985eb43a3ce1392fc73a39,
+        type: 3}
+      propertyPath: uniqueIdentifier
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73cdbd7349985eb43a3ce1392fc73a39, type: 3}
 --- !u!1 &1158518586687808610 stripped
